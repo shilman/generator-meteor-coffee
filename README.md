@@ -3,7 +3,7 @@
 A [Coffeescript](http://coffeescript.org) [Meteor](http://meteor.com) project generator for [Yeoman](http://yeoman.io).
 
 This is a Coffeescript port of the excellent [generator-meteor](https://github.com/Pent/generator-meteor) Yeoman generator.
-If you prefer straight Javascript, check out the original.
+If you prefer your Javascript straight, check out the original [generator-meteor](https://github.com/Pent/generator-meteor).
 
 Minor modifications:
  - Removed a few files to keep the scaffolding simple
