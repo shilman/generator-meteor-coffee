@@ -3,14 +3,13 @@
 A [Coffeescript](http://coffeescript.org) [Meteor](http://meteor.com) project generator for [Yeoman](http://yeoman.io).
 
 This is a Coffeescript port of the excellent [generator-meteor](https://github.com/Pent/generator-meteor) Yeoman generator.
-If you prefer straight Javascript, check it out.
+If you prefer straight Javascript, check out the original.
 
 Minor modifications:
- - Removed a few files to keep the scaffolding simple ()
+ - Removed a few files to keep the scaffolding simple
  - Moved routes.coffee to lib/
- - 
-
-
+ - yo meteor-coffee:view fooBar => foo_bar.html etc.
+ - Meteor 1.0
 
 [![NPM](https://nodei.co/npm/generator-meteor-coffee.png)](https://nodei.co/npm/generator-meteor-coffee/)
 
@@ -84,9 +83,9 @@ These generators will be extended over time and I hope you make good use of them
             home.html
             home.coffee
             layout.html
-        routes.coffee
     lib/
         collections.coffee
+        routes.coffee
     private/
     public/
         fonts/
@@ -94,7 +93,6 @@ These generators will be extended over time and I hope you make good use of them
         robots.txt
     server/
         publications.coffee
-        security.coffee
         server.coffee
     .gitignore <- contains sensible defaults for files/folders to ignore
     LICENSE <- default empty license file
