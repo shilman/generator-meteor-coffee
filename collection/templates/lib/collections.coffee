@@ -1,0 +1,1 @@
+@<%= classyName %> = new Mongo.Collection('<%= name %>')
