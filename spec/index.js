@@ -13,8 +13,7 @@ var Generator = module.exports = function Generator() {
 
 util.inherits(Generator, scriptBase);
 
-Generator.prototype.createViewFiles = function createViewFiles() {
-  this.writeTemplate('client/view/view.html', path.join('client/views', this.underscoredPath + '.html'));
-  this.writeTemplate('client/view/view.coffee', path.join('client/views', this.underscoredPath + '.coffee'));
-  this.writeTemplate('client/view/view.import.less', path.join('client/views', this.underscoredPath + '.import.less'));
+Generator.prototype.createSpecFiles = function createSpecFiles() {
+  this.writeTemplate('tests/jasmine/client/unit/spec_helper.coffee', 'tests/jasmine/client/unit/spec_helper.coffee');
+  this.writeTemplate('tests/jasmine/client/unit/views/view_spec.coffee', path.join('tests/jasmine/client/unit/views', this.underscoredPath + '_spec.coffee'));
 };

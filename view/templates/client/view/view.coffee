@@ -1,7 +1,9 @@
-Template.<%= _.last(name.split('/')) %>.helpers(
+Template.<%= nameOnly %>.rendered = ->
+
+Template.<%= nameOnly %>.helpers(
 
 )
 
-Template.<%= _.last(name.split('/')) %>.events(
+Template.<%= nameOnly %>.events(
 
 )

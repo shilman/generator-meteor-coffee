@@ -1,3 +1,5 @@
-<template name="<%= _.last(name.split('/')) %>">
-
+<template name="<%= nameOnly %>">
+  <div class="js-<%= dasherizedName %> view <%= dasherizedName %>">
+    <%= name %>
+  </div>
 </template>

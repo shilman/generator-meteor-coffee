@@ -1,1 +1,1 @@
-Meteor.subscribe('<%= name %>')
+Meteor.subscribe('<%= nameOnly %>')
